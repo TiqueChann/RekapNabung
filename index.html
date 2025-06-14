@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nabung Woi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Chann cita cita nya mau ngidol </h1>
+
+    <input type="number" id="amount" placeholder="Jumlah (Rp)">
+    <input type="date" id="date">
+    <button onclick="addSavings()">Sumbit</button>
+    <button class="reset-btn" onclick="resetData()">Reset Semua</button>
+
+    <div id="total">Total Tabungan: Rp0</div>
+
+    <div id="progress-container">
+        <h3>Progress Menuju Rp.1.500.000</h3>
+        <div id="progress-bar">
+            <div id="progress-fill">0%</div>
+        </div>
+    </div>
+
+    <div id="log"></div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
