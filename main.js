@@ -1,4 +1,4 @@
-const goal = 1500000;
+const goal = 2000000;
 let savings = JSON.parse(localStorage.getItem("savings")) || [];
 
 function saveData() {
